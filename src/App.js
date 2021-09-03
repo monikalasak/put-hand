@@ -1,24 +1,30 @@
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import {
+  HashRouter,
+  Route,
+  Link,
+  Switch,
+  NavLink,
+} from 'react-router-dom';
+import Home from './components/Home'
+import HomeMenu from './components/Home-Menu';
+import Login from './components/Login'
+import Registration from './components/Registration'
 
+class App extends Component {
+  render() {
+    return <HashRouter>
+      <>
+        <HomeMenu />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/login' component={Login} />
+          <Route exact path='/registration' component={Registration} />
+        </Switch>
+      </>
+    </HashRouter>;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+  }
+};
 export default App;
