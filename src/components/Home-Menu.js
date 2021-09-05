@@ -7,15 +7,15 @@ class HomeMenu extends Component {
     render() {
         return <>
             <div className="header_menu menu_first">
-                <Link to="/login" >Zaloguj</Link>
-                <Link to="/registration">Załóz konto</Link>
+                <Link to="/login" className="header_buttons btns-login">Zaloguj</Link>
+                <Link to="/registration" className="header_buttons btns-regin">Załóz konto</Link>
             </div>
             <div className="header_menu menu_second">
-                <ScrollLink to="start">Start</ScrollLink>
-                <ScrollLink to="what">O co chodzi?</ScrollLink>
-                <ScrollLink to="aboutus">O nas</ScrollLink>
-                <ScrollLink to="fundaction">Fundacja i organizacja</ScrollLink>
-                <ScrollLink to="contact">Kontakt</ScrollLink>
+                <ScrollLink to="start" className="header_buttons_second btns-start">Start</ScrollLink>
+                <ScrollLink to="what" className="header_buttons_second">O co chodzi?</ScrollLink>
+                <ScrollLink to="aboutus" className="header_buttons_second">O nas</ScrollLink>
+                <ScrollLink to="fundaction" className="header_buttons_second">Fundacja i organizacja</ScrollLink>
+                <ScrollLink to="contact" className="header_buttons_second">Kontakt</ScrollLink>
             </div>
         </>
     }

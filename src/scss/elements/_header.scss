@@ -18,3 +18,19 @@
     font-size: 18px;
 
 }
+.header_buttons{
+    text-decoration: none;
+    color:$color-line;
+    padding: 10px;
+}
+.btns-regin{
+    border:0.75px solid $color-background;
+    
+}
+.header_buttons_second{
+    margin-left: 35px;
+    padding: 10px;
+}
+.btns-start{
+    border: 0.75px solid $color-text;
+}
