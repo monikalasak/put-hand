@@ -33,4 +33,52 @@
 }
 .btns-start{
     border: 0.75px solid $color-text;
+    text-decoration: none;
+    color: $color-text;
+}
+
+.header{
+    display: flex;  
+}
+.img1{
+    width: 1368px;
+    height: 963px;
+    position: relative;
+    left: -483px;
+    top:0px;
+    background: transparent 0% 0% no-repeat;
+    
+}
+.header_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -480px;
+    font-family: $font-base;
+    color: $color-text;
+    width: 50%;
+    .header_title{
+        font-size: 38px;
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 35px;
+    }
+    .header_button{
+        display: flex;
+        justify-content: space-between;
+        font-size: 36px;
+        .buttons_btns{
+        text-decoration: none;
+        color:$color-text;
+        border: 0.75px solid $color-line;
+        padding: 10px;
+        margin: 20px;
+
+        }
+        
+
+    }
+
 }

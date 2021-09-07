@@ -6,6 +6,7 @@ export default function Login() {
     return (
         <div className="Login_box">
             <h1 className="Login_title">Zaloguj się</h1>
+
             <div className="Login_form">
                 <form onSubmit>
                     <label className="form_label">Email</label><br />

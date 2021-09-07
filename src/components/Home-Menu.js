@@ -11,7 +11,7 @@ class HomeMenu extends Component {
                 <Link to="/registration" className="header_buttons btns-regin">Załóz konto</Link>
             </div>
             <div className="header_menu menu_second">
-                <ScrollLink to="start" className="header_buttons_second btns-start">Start</ScrollLink>
+                <Link to="/" className="header_buttons_second btns-start">Start</Link>
                 <ScrollLink to="what" className="header_buttons_second">O co chodzi?</ScrollLink>
                 <ScrollLink to="aboutus" className="header_buttons_second">O nas</ScrollLink>
                 <ScrollLink to="fundaction" className="header_buttons_second">Fundacja i organizacja</ScrollLink>
