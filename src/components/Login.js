@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-
+import Deco from "../assets/Decoration.svg";
 
 export default function Login() {
     return (
         <div className="Login_box">
             <h1 className="Login_title">Zaloguj się</h1>
-
+            <img src={Deco} className="icon_deco" />
             <div className="Login_form">
                 <form onSubmit>
                     <label className="form_label">Email</label><br />

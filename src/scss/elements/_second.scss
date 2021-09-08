@@ -1,0 +1,29 @@
+.section_second{
+    background-color: $color-background;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section_second_column{
+        text-align: center;
+        padding: 45px;
+        width: 334px;
+        height: 252px;
+        .column_title{
+            font-size: 90px;
+            font-family: $font-base;
+            color: $color-2;
+            padding-bottom: 10px;
+
+        }
+        .column_second_title{
+            font-size: 18px;
+            font-family: $font-base;
+            color: $color-text;
+            padding-bottom: 20px;
+        }
+        .column_text{
+            font-size: 16px;
+            font-family: $font-alt;
+        }
+    }
+}
