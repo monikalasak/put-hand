@@ -1,0 +1,17 @@
+.contacts_form{
+   position: relative;
+   right: -300px;
+   text-align: center;
+   margin-top: 60px;
+
+   .contacts_form_title{
+       font-size: 38px;
+       text-align: center;
+   }
+   .contacts_form_boxes{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 500px;
+   }
+}

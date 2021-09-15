@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Whatabout() {
     return (
-        <div className="section_second">
+        <div className="section_second cointener">
             <div className="section_second_column">
                 <h2 className="column_title">10</h2>
                 <h3 className="column_second_title">ODDANYCH WORKÓW</h3>

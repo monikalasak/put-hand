@@ -1,0 +1,42 @@
+.section_aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 935px;
+    width: 100%;
+    font-family: $font-base;
+    color: $color-text;
+    .Aboutus_box_left{
+        text-align: center;
+        background-color: $color-base;
+        width: 50%;
+        height: 935px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .Aboutus_title{
+            font-size: 36px;
+            padding: 30px;
+        }
+        .Aboutus_text{
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: -0.6px;
+            padding: 30px;
+        }
+        .About_signature{
+            position: relative;
+            left:150px;
+        }
+
+
+    
+    }
+    .Aboutus_box_right{
+        width: 50%;
+
+        
+    }
+    
+}
